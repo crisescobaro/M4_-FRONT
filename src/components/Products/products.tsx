@@ -13,7 +13,7 @@ const ProductsPage = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await axios.get(process.env.NEXT_PUBLIC_API_URL_PRODUCTS as string)
+        const response = await axios.get(`${process.env.NEXT_PUBLIC_API_URL_PRODUCTS}/products`)
         setProducts(response.data);
       } catch (err) {
         setError("Error al cargar los productos.");

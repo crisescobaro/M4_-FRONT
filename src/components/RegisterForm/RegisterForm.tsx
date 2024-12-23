@@ -23,7 +23,7 @@ export default function RegisterForm() {
   const onSubmit = async (data: FormData) => {
     console.log("Datos enviados:", data); // <-- Imprime los datos
     try {
-      const response = await axios.post(process.env.NEXT_PUBLIC_API_URL_REGISTER as string, data)
+      const response = await axios.post(`${process.env.NEXT_PUBLIC_API_URL_REGISTER}/users/register`,)
       console.log("Respuesta del servidor:", response.data);
       Swal.fire({
         title: "Usuario Registrado Con Exito",
