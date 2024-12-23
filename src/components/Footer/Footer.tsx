@@ -37,18 +37,18 @@ export default function Footer() {
             <h3 className="text-lg font-semibold">Enlaces rápidos</h3>
             <ul className="space-y-2">
               <li><Link href="/" className="text-sm hover:text-gray-300 dark:hover:text-gray-600 transition-colors">Inicio</Link></li>
-              <li><Link href="/productos" className="text-sm hover:text-gray-300 dark:hover:text-gray-600 transition-colors">Productos</Link></li>
-              <li><Link href="/ofertas" className="text-sm hover:text-gray-300 dark:hover:text-gray-600 transition-colors">Ofertas</Link></li>
-              <li><Link href="/contacto" className="text-sm hover:text-gray-300 dark:hover:text-gray-600 transition-colors">Contacto</Link></li>
+              <li><Link href="/" className="text-sm hover:text-gray-300 dark:hover:text-gray-600 transition-colors">Productos</Link></li>
+              <li><Link href="/" className="text-sm hover:text-gray-300 dark:hover:text-gray-600 transition-colors">Ofertas</Link></li>
+              <li><Link href="/" className="text-sm hover:text-gray-300 dark:hover:text-gray-600 transition-colors">Contacto</Link></li>
             </ul>
           </div>
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Atención al cliente</h3>
             <ul className="space-y-2">
-              <li><Link href="/faq" className="text-sm hover:text-gray-300 dark:hover:text-gray-600 transition-colors">Preguntas frecuentes</Link></li>
-              <li><Link href="/envios" className="text-sm hover:text-gray-300 dark:hover:text-gray-600 transition-colors">Envíos</Link></li>
-              <li><Link href="/devoluciones" className="text-sm hover:text-gray-300 dark:hover:text-gray-600 transition-colors">Devoluciones</Link></li>
-              <li><Link href="/terminos" className="text-sm hover:text-gray-300 dark:hover:text-gray-600 transition-colors">Términos y condiciones</Link></li>
+              <li><Link href="/" className="text-sm hover:text-gray-300 dark:hover:text-gray-600 transition-colors">Preguntas frecuentes</Link></li>
+              <li><Link href="/" className="text-sm hover:text-gray-300 dark:hover:text-gray-600 transition-colors">Envíos</Link></li>
+              <li><Link href="/" className="text-sm hover:text-gray-300 dark:hover:text-gray-600 transition-colors">Devoluciones</Link></li>
+              <li><Link href="/" className="text-sm hover:text-gray-300 dark:hover:text-gray-600 transition-colors">Términos y condiciones</Link></li>
             </ul>
           </div>
           <div className="space-y-4">
